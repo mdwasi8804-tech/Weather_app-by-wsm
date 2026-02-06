@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    background-image: url('https://wallpaperaccess.com/full/1540005.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.weather-card {
+    background: rgba(255,255,255,0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+#weather-info {
+    margin-top: 20px;
+}#weather-info p {
+    font-size: 16px;
+    margin: 5px;
+}
+
+#weather-info {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}

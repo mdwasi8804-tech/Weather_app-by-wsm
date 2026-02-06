@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App by wsm</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="weather-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/869/869869.png"
+             alt="Weather Logo"
+             width="120">
+
+        <h1>Weather App</h1>
+
+        <input type="text" id="city-input" placeholder="Enter city name">
+
+        <button onclick="weatherFn()">Get Weather</button>
+
+        <div id="weather-info">
+
+            <h3 id="city-name"></h3>
+
+            <p id="date"></p>
+
+            <img id="weather-icon" src="" width="100">
+
+            <p id="temperature"></p>
+
+            <p id="feels-like"></p>
+
+            <p id="description"></p>
+
+            <p id="humidity"></p>
+
+            <p id="pressure"></p>
+
+            <p id="wind-speed"></p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
